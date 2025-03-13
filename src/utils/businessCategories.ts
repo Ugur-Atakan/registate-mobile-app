@@ -1,0 +1,22 @@
+export const businessCategories = [
+  'Technology / Software',
+  'E-commerce',
+  'Healthcare / Biotech',
+  'Financial Services',
+  'Real Estate',
+  'Manufacturing',
+  'Retail',
+  'Professional Services',
+  'Media / Entertainment',
+  'Education',
+  'Transportation / Logistics',
+  'Energy / Utilities',
+  'Agriculture',
+  'Construction',
+  'Hospitality / Tourism',
+  'Telecommunications',
+  'Environmental Services',
+  'Consumer Goods',
+  'Aerospace / Defense',
+  'Other'
+];
