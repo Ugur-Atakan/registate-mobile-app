@@ -13,7 +13,7 @@ const Navigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        {!isLoggedIn ? (
+        {isLoggedIn ? (
           <Stack.Screen name="UserStack" component={UserStack} />
         ) : (
           <Stack.Screen name="AuthStack" component={AuthStack} />

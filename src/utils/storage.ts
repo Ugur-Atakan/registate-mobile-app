@@ -5,6 +5,7 @@ const TOKEN_KEY = 'tokens';
 
 export const getUserTokens = async () => {
   const tokens = await AsyncStorage.getItem(TOKEN_KEY);
+  console.log('tokens', tokens);
   return tokens ? JSON.parse(tokens) : null;
 };
 
